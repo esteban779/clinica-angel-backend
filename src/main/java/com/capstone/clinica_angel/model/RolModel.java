@@ -10,8 +10,7 @@ public class RolModel {
     private String nomb_rol;
     private String estado;
 
-    public RolModel() {
-    }
+    public RolModel() { }
 
     public RolModel(long id_rol, String nomb_rol, String estado) {
         this.id_rol = id_rol;
