@@ -2,4 +2,122 @@
     color: red;
 }
 
+            /* Estilos para el encabezado */
+            .navbar {
+                background-color: #3498db;
+            }
+            .navbar-brand {
+                color: #fff;
+                font-size: 24px;
+            }
+            .navbar-toggler-icon {
+                color: #fff;
+            }
+            .navbar-nav {
+                margin-top: 10px;
+            }
+            .nav-link {
+                color: #fff;
+                margin: 0 15px;
+            }
+            .nav-link.active {
+                font-weight: bold;
+            }
+            /* Estilos generales para el cuerpo de la página */
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #ecf0f1;
+                margin: 0;
+                padding: 0;
+            }
 
+            /* Estilos para el encabezado */
+            .navbar {
+                background-color: #3498db;
+            }
+            .navbar-brand {
+                color: #fff;
+                font-size: 24px;
+            }
+            .navbar-toggler-icon {
+                color: #fff;
+            }
+            .navbar-nav {
+                margin-top: 10px;
+            }
+            .nav-link {
+                color: #fff;
+                margin: 0 15px;
+            }
+            .nav-link.active {
+                font-weight: bold;
+            }
+            /* Estilos generales para el cuerpo de la página */
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #ecf0f1;
+                margin: 0;
+                padding: 0;
+            }
+            /* Estilos para el formulario */
+            .container {
+                margin-top: 20px;
+                padding: 20px;
+                background-color: #fff;
+                border-radius: 10px;
+            }
+          
+    
+    
+    .custom-navbar_01 {
+    background-color: #87CEEB; /* Código de color celeste claro */
+}
+
+            input[type="text"], input[type="number
+
+            /* Estilos para el encabezado */
+            .navbar {
+            background-color: #3498db;
+            }
+            .navbar-brand {
+            color: #fff;
+            font-size: 24px;
+            }
+            .navbar-toggler-icon {
+            color: #fff;
+            }
+            .navbar-nav {
+            margin-top: 10px;
+            }
+            .nav-link {
+            color: #fff;
+            margin: 0 15px;
+            }
+            .nav-link.active {
+            font-weight: bold;
+            }
+            /* Estilos generales para el cuerpo de la página */
+            body {
+            font-family: Arial, sans-serif;
+            background-color: #ecf0f1;
+            margin: 0;
+            padding: 0;
+            }
+            /* Estilos para el formulario */
+            .container {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            }
+            input[type="text"], input[type="number"], select {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            }
+            label {
+            font-weight: bold;
+            }
+  
