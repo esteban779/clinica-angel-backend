@@ -1,11 +1,14 @@
 
 package com.capstone.clinica_angel.model;
 
+
 import lombok.Data;
 
 @Data
+
+
 public class PacienteModel {
-    
+
     private Long id_pact;
     private String nombre;
     private String apellido;
