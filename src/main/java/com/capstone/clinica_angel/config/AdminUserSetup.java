@@ -32,8 +32,8 @@ public class AdminUserSetup implements ApplicationRunner {
             String adminPassword = "@Dm1n&7";
             String hashedPassword = passwordEncoder.encode(adminPassword);
 
-            String createAdmin = "CALL sp_nuevo_usuario(?, ?, ?)";
-            jdbcTemplate.update(createAdmin, adminUsername, hashedPassword, 1);
+            String createAdmin = "CALL sp_nuevo_usuario(?, ?, ?, ?)";
+            jdbcTemplate.update(createAdmin, adminUsername, hashedPassword, 1, 0);// 1 -> admin role, 0 -> id_trab
         }
     }
     

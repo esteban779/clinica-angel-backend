@@ -1,11 +1,15 @@
 
 package com.capstone.clinica_angel.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import lombok.Data;
 
 @Data
+@Entity
 public class TrabajadorModel {
     
+    @Id
     private Long id_trab;
     private Long id_usua;
     private String nomb_trab;
