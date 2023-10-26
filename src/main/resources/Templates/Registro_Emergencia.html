@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Registro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        body {
+          background-image: url('/img/background.jpeg');
+          background-size: cover; /* Ajusta el tamaño de la imagen */
+          background-repeat: no-repeat; /* Evita la repetición de la imagen */
+        }
+      </style>
+</head>
+<body>
+    <div class="col-12 text-center">
+        <h1>REGISTRO DE EMERGENCIAS</h1>
+      </div>
+    <form class="mx-auto p-3 mb-2 bg-info-subtle text-emphasis-info border border-primary rounded p-3 border-3 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 800px;">
+        <div class="text-center">
+            <img src="img/doctorlogo.jpeg" alt="Logo" width="150">
+          </div>
+        <div class="form-row mt-3">
+            <div class="row">
+                <div class="col">
+                <label for="inputName">Nombre</label>  
+                  <input type="text" class="form-control" placeholder="Ingrese su nombre">
+                </div>
+                <div class="col">
+                <label for="inputName2">Apellido</label>
+                  <input type="text" class="form-control" placeholder="Ingrese su apellido">
+                </div>
+              </div>  
+        </div>
+        <div class="form-row mt-3">
+            <div class="row">
+                <div class="col">
+                <label for="inputAltura">Altura (metros)</label>  
+                  <input type="text" class="form-control" placeholder="Ingrese su altura">
+                </div>
+                <div class="col">
+                <label for="inputPeso">Peso (Kg)</label>
+                  <input type="text" class="form-control" placeholder="Ingrese su peso">
+                </div>
+              </div>  
+        </div>
+        <div class="form-row mt-3">
+            <div class="row">
+                <div class="col">
+                <label for="inputTelefono">Teléfono</label>  
+                  <input type="text" class="form-control" placeholder="Ingrese su telefono">
+                </div>
+                <div class="col">
+                    <label for="inputGenero">Genero</label>
+                    <select id="inputGenero" class="form-control">
+                    <option selected>Seleccione...</option>
+                    <option>...</option>
+                    </select>
+                </div>
+              </div>  
+        </div>
+        <div class="form-row mt-3">
+            <div class="row">
+                <div class="col">
+                <label for="inputAlergias">Alergias</label>  
+                  <input type="text" class="form-control" placeholder="Ingrese su alergia (Opcional)">
+                </div>
+                <div class="col">
+                    <label for="inputPeso">Doctor</label>
+                    <select id="inputAlergia" class="form-control">
+                    <option selected>Seleccione...</option>
+                    <option>...</option>
+                    </select>
+                </div>
+              </div>  
+        </div>
+        <div class="form-group col-md-6 mt-3">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="ingrese su correo electronico">
+          </div> 
+        <div class="form-group mt-3">
+          <label for="inputAddress2">Dirección</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Ingrese su dirección">
+        </div>
+        <div class="form-group mt-3">
+            <label for="inputComentarios">Comentarios</label>
+            <textarea class="form-control" id="comentarios" rows="4"></textarea>
+          </div>
+        <div class="container mt-3">
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary" style="width: 200px;">Registrar</button>
+            </div>
+          </div>
+        
+      </form>
+</body>
+</html>
